@@ -2,7 +2,17 @@
 
 本程序借助脚本直接按顺序输出实验所有步骤的结果，一步到位。
 
-## 启动方法
+## 安装
+
+右上角有个克隆按钮，在里面选择下载 .zip 文件，然后解压。
+
+或者安装 git 后直接 git clone： 
+```bash
+sudo apt install git
+
+git clone https://github.com/zrsharp/OSExperiment3.git
+```
+## 启动
 目录下有个 experiment3.sh 脚本，然后直接运行即可,命令如下：
 
 ```bash
