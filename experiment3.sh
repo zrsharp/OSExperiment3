@@ -20,7 +20,7 @@ echo -e '================================'
 
 # dynamic link
 echo -e '\n========== dynamic link =========='
-gcc -c fPIC bill.c fred.c
+gcc -c -fPIC bill.c fred.c
 gcc -shared -o libfoo.so bill.o fred.o
 cp slmain.c dlmain.c
 
